@@ -163,6 +163,55 @@ footer {
     background-color: #ddd;
 }
 
+#credits-total {
+    color: #8B0000;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#courses .controls button {
+    background-color: #8B0000;
+    color: #fff;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    margin: 0.3rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    transition: all 0.3s ease;
+}
+
+#courses .controls button:hover {
+    background-color: #FFD700;
+    color: #2E2E2E;
+    transform: scale(1.05);
+}
+
+#courses .controls button:active {
+    transform: scale(0.95);
+}
+
+#courses .controls {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    background-color: #eee;
+    padding: 1rem 10px;
+    text-align: center;
+}
+
+.button {
+    display: block;
+}
+
 
 @media (prefers-reduced-motion:reduce) {
     * {
