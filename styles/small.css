@@ -41,55 +41,74 @@ body {
     margin: 0 auto
 }
 
-.visually-hidden {
-    position: absolute !important;
-    height: 1px;
-    width: 1px;
-    overflow: hidden;
-    clip: rect(1px, 1px, 1px, 1px);
-    white-space: nowrap
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    padding: 5px 0 5px 10px;
+    align-items: end;
+    border-bottom: solid 1px #ddd;
+    column-gap: 8px;
 }
 
-
-.header-inner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    gap: .5rem;
-    color: var(--accent);
-    text-decoration: none;
-    font-weight: 700
-}
-
-.nav-toggle {
-    background: none;
-    border: 1px solid #ccc;
-    padding: .5rem;
-    border-radius: 6px
-}
-
-.primary-nav {
-    display: none
-}
-
-.primary-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0
-}
-
-.primary-nav a {
+header img {
     display: block;
-    padding: .5rem 1rem;
-    text-decoration: none
+    width: 100%;
+    height: auto;
+    padding-bottom: 5px;
 }
 
+header span {
+    font-size: 1.2rem;
+}
+
+.hamburguer {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburguer::before {
+    content: "\2630";
+    font-size: 2rem;
+}
+
+.hamburguer.show::before {
+    content: "\00D7";
+}
+
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a {
+    display: block;
+    padding: .8rem 10px;
+    text-decoration: none;
+    border-bottom: solid 1px #ddd;
+}
+
+.navigation li.current {
+    background-color: #eee;
+}
+
+.navigation a:hover {
+    background-color: #ddd;
+}
 
 h1 {
     font-size: 2rem;
@@ -102,13 +121,14 @@ h2 {
 }
 
 .about-container h2 {
-    background-color: #2e2e2e;
+    background-color: #8B0000;
     color: white;
     padding: 0.6rem 1rem;
     margin: 0;
     font-size: 1.1rem;
     text-align: center;
 }
+
 
 .about-container {
     display: flex;
@@ -129,7 +149,7 @@ h2 {
 }
 
 .info-box h3 {
-    background-color: #2e2e2e;
+    background-color: #8B0000;
     color: white;
     padding: 0.6rem 1rem;
     margin: 0;
@@ -142,6 +162,7 @@ h2 {
     font-family: "Nunito", sans-serif;
     line-height: 1.5;
     font-size: 0.95rem;
+    line-height: 2;
     color: #333;
 }
 
@@ -202,7 +223,7 @@ h2 {
 }
 
 footer {
-    background-color: #eee;
+    background-color: #d9d9d9;
     padding: 1rem 10px;
     text-align: center;
 }
@@ -272,7 +293,7 @@ footer {
 }
 
 h2 {
-    background-color: #eee;
+    background-color: #d9d9d9;
     padding: 1rem 10px;
     text-align: center;
 }

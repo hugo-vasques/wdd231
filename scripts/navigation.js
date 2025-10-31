@@ -1,19 +1,7 @@
-const btnNav = document.getElementById('btnNav');
-const primaryNav = document.getElementById('primary-nav');
+const navbutton = document.querySelector('#ham-btn');
+const navlinks = document.querySelector('#nav-bar');
 
-
-btnNav.addEventListener('click', () => {
-    const expanded = btnNav.getAttribute('aria-expanded') === 'true' || false;
-    btnNav.setAttribute('aria-expanded', !expanded);
-    primaryNav.style.display = expanded ? 'none' : 'block';
-});
-
-
-window.addEventListener('resize', () => {
-    if (window.innerWidth >= 720) {
-        primaryNav.style.display = '';
-        btnNav.setAttribute('aria-expanded', false);
-    } else {
-        primaryNav.style.display = 'none';
-    }
+navbutton.addEventListener('click', () => {
+    navbutton.classList.toggle('show');
+    navlinks.classList.toggle('show');
 });

@@ -13,39 +13,23 @@
         rel="stylesheet">
 
 
-    <script defer src="scripts/navigation.js"></script>
     <script defer src="scripts/date.js"></script>
     <script defer src="scripts/course.js"></script>
 </head>
 
 <body>
-    <header class="site-header">
-        <div class="container header-inner">
-            <a href="index.html" class="logo" aria-label="Inicio">
-                <svg width="48" height="48" viewBox="0 0 24 24" role="img" aria-hidden="true">
-                    <rect width="24" height="24" rx="4" fill="currentColor"></rect>
-                </svg>
-                <span class="owner">Site Plan</span>
-            </a>
-
-
-            <button id="btnNav" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">
-                <span class="hamburger">☰</span>
-                <span class="visually-hidden">Open menu</span>
-            </button>
-
-
-            <nav id="primary-nav" class="primary-nav" aria-label="Menú principal">
-                <ul>
-                    <li><a href="index.html" aria-current="page">Home</a></li>
-                    <li><a href="chamber.html">Chamber</a></li>
-                    <li><a href="final.html">Final</a></li>
-                </ul>
-            </nav>
-        </div>
-
+    <header>
+        <img src="images/home.svg" alt="site logo" width="512" height="512">
+        <span>Hugo's Site</span>
+        <button id="ham-btn" class="hamburguer"></button>
     </header>
-
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Final</a></li>
+        </ul>
+    </nav>
 
     <main class="container">
         <h1>Home</h1>
@@ -56,11 +40,12 @@
                 <div class="info-box">
                     <h2>About Me</h2>
                     <p>
-                        Massa facilisis per purus sit imperdiet curae amet. Et fames lorem mi
-                        phasellus congue nascetur enim consectetur sociis natoque risus. Odio
-                        vehicula libero nisi viverra augue commodo pretium vivamus at duis
-                        magna. Quam fringilla convallis ridiculus malesuada accumsan potenti
-                        magnais volutpat nulla ipsum. Dis maecenas et praesent class fringilla.
+                        Hey there! I'm Hugo, from Cajamarca, Peru. I'm a web development student who enjoys creating
+                        clean, responsive, and functional
+                        pages. I like learning
+                        new technologies and finding simple ways to make ideas come to life. Outside of coding, I'm into
+                        strategy games like
+                        Clash Royale — helps me think ahead and stay sharp in every challenge.
                     </p>
                 </div>
 
@@ -108,6 +93,7 @@
             <p id="lastModified">Last Modification: <span id="lm"></span></p>
         </div>
     </footer>
+    <script defer src="scripts/navigation.js"></script>
 </body>
 
 </html>
