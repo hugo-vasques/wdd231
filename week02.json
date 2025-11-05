@@ -1,0 +1,33 @@
+{
+    "family_name": "Vasquez",
+    "move_in_date": "2022-07-15",
+    "number_of_people": 5,
+    "visited_by_bishopric": true,
+    "family_members": [
+        {
+            "name": "Mauro Vasquez",
+            "gender": "Male",
+            "birthdate": "2013-06-18"
+        },
+        {
+            "name": "Emiliano Vasquez",
+            "gender": "Male",
+            "birthdate": "2016-03-02"
+        },
+        {
+            "name": "Marcelo Vasquez",
+            "gender": "Male",
+            "birthdate": "2007-06-23"
+        },
+        {
+            "name": "Melissa Paredes",
+            "gender": "Female",
+            "birthdate": "1984-04-27"
+        },
+        {
+            "name": "Hugo Vasquez",
+            "gender": "Male",
+            "birthdate": "1979-11-21"
+        }
+    ]
+}
