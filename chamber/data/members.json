@@ -3,7 +3,7 @@
         "name": "Ferretería San José",
         "address": "Av. Lima 123",
         "phone": "987 654 321",
-        "website": "https://ferresanjose.com",
+        "website": "javascript:void(0)",
         "membership": 2,
         "image": "ferreteria.jpg"
     },
@@ -27,7 +27,7 @@
         "name": "Panadería San José",
         "address": "Av. Primavera 210",
         "phone": "999 111 222",
-        "website": "https://panaderiasanjose.pe",
+        "website": "#",
         "image": "panaderia.jpg",
         "membership": 3
     },
