@@ -4,47 +4,47 @@
         "address": "Av. La Paz 543",
         "phone": "+ 51 987 654 321",
         "website": "javascript:void(0)",
-        "membership": 2,
-        "image": ""
+        "membership": 1,
+        "image": "images/ferreteria.jpeg"
     },
     {
-        "name": "Panadería San José",
-        "address": "Av. Primavera 210",
-        "phone": "999 111 222",
-        "website": "https://panaderiasanjose.pe",
-        "image": "panaderia.jpg",
+        "name": "Panadería Añañau",
+        "address": "Jr. Los Rosales 210",
+        "phone": "+ 51 999 111 222",
+        "website": "javascript:void(0)",
+        "image": "images/añañau.jpg",
         "membership": 3
     },
     {
-        "name": "Panadería San José",
-        "address": "Av. Primavera 210",
-        "phone": "999 111 222",
-        "website": "https://panaderiasanjose.pe",
-        "image": "",
+        "name": "Andean Consultores",
+        "address": "Mariscal Cáceres 580",
+        "phone": "+51 987 654 321",
+        "website": "javascript:void(0)",
+        "image": "images/andean.webp",
         "membership": 3
     },
     {
-        "name": "Panadería San José",
-        "address": "Av. Primavera 210",
-        "phone": "999 111 222",
-        "website": "#",
-        "image": "panaderia.jpg",
-        "membership": 3
+        "name": "Cevichería 'El Huarique'",
+        "address": "Jr. 5 Esquinas 202",
+        "phone": "+51 948 200 100",
+        "website": "javascript:void(0)",
+        "image": "images/cevicheria.webp",
+        "membership": 2
     },
     {
-        "name": "Panadería San José",
-        "address": "Av. Primavera 210",
-        "phone": "999 111 222",
-        "website": "https://panaderiasanjose.pe",
-        "image": "panaderia.jpg",
-        "membership": 3
+        "name": "Imperio Gym",
+        "address": "Av. Los Campostes 100",
+        "phone": "+ 51 978 465 213",
+        "website": "javascript:void(0)",
+        "image": "images/gym.png",
+        "membership": 2
     },
     {
-        "name": "Ferretería El Tornillo",
-        "address": "Calle Industrial 100",
-        "phone": "988 555 777",
-        "website": "https://eltornillo.pe",
-        "image": "ferreteria.jpg",
+        "name": "El Puquio",
+        "address": "Av. Colonial, Jesus",
+        "phone": "+51 977 235 687",
+        "website": "javascript:void(0)",
+        "image": "images/puqio.jpg",
         "membership": 1
     }
 ]
