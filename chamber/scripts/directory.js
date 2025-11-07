@@ -31,11 +31,12 @@ function displayGrid() {
         const imageSrc = biz.image && biz.image.trim() !== "" ? biz.image : "images/placeholder.png";
 
         card.innerHTML = `
-      <img src="${imageSrc}" alt="${biz.name}" class="directory-img">
+        <div class="img-box">
+            <img src="${imageSrc}" alt="${biz.name}">
+        </div>
       <h3>${biz.name}</h3>
       <p>${biz.address}</p>
       <p>${biz.phone}</p>
-
       <p class="membership-tag">Membership: ${membershipText}</p>
 
       <a href="${biz.website}" target="_blank" class="cta-btn">Visit Website</a>
