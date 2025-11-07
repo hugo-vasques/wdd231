@@ -110,6 +110,33 @@ header span {
     background-color: #ddd;
 }
 
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.menu button {
+    padding: 0.6rem 1.2rem;
+    border: none;
+    background: #e5e5e5;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+.menu button:hover {
+    background: #d2d2d2;
+}
+
+.menu button.active {
+    background: #8B0000;
+    color: white;
+    transform: scale(1.03);
+}
+
 #directoryContainer.grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -240,10 +267,17 @@ footer {
 
 .membership-tag {
     font-weight: bold;
-    padding: .3rem .6rem;
-    border-radius: 6px;
-    margin: .4rem 0;
+    margin-top: 0.5rem;
+    margin-bottom: 0.75rem;
+    letter-spacing: 1px;
+    display: block;
+}
+
+.cta-btn,
+.card a {
+    color: var(--accent);
     display: inline-block;
+    margin-top: 0.5rem;
 }
 
 .membership-tag:contains("Bronze") {
