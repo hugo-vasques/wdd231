@@ -275,22 +275,28 @@ footer {
 .cta-btn,
 .card a {
     color: var(--accent);
-    display: inline-block;
+    display: block;
     margin-top: 0.5rem;
 }
 
-.membership-tag:contains("Bronze") {
+.membership-tag {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+}
+
+.card.bronze .membership-tag {
     background: #cd7f32;
     color: white;
-
 }
 
-.membership-tag:contains("Silver") {
+.card.silver .membership-tag {
     background: #C0C0C0;
-    color: black;
+    color: white;
 }
 
-.membership-tag:contains("Gold") {
+.card.gold .membership-tag {
     background: #FFD700;
     color: black;
 }
