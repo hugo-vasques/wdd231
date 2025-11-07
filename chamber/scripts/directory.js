@@ -4,7 +4,7 @@ const listBtn = document.querySelector('#listBtn');
 
 let businesses = [];
 
-fetch('./data/business.json')
+fetch('./data/members.json')
     .then(response => response.json())
     .then(data => {
         businesses = data;
