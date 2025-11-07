@@ -1,8 +1,8 @@
 [
     {
         "name": "Ferretería San José",
-        "address": "Av. Lima 123",
-        "phone": "987 654 321",
+        "address": "Av. La Paz 543",
+        "phone": "+ 51 987 654 321",
         "website": "javascript:void(0)",
         "membership": 2,
         "image": "ferreteria.jpg"
