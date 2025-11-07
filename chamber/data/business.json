@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Ferretería San José",
+        "address": "Av. Lima 123",
+        "phone": "987 654 321",
+        "website": "https://ferresanjose.com",
+        "membership": 2,
+        "image": "ferreteria.jpg"
+    },
+    {
+        "name": "Panadería San José",
+        "address": "Av. Primavera 210",
+        "phone": "999 111 222",
+        "website": "https://panaderiasanjose.pe",
+        "image": "panaderia.jpg",
+        "membership": 3
+    },
+    {
+        "name": "Panadería San José",
+        "address": "Av. Primavera 210",
+        "phone": "999 111 222",
+        "website": "https://panaderiasanjose.pe",
+        "image": "",
+        "membership": 3
+    },
+    {
+        "name": "Panadería San José",
+        "address": "Av. Primavera 210",
+        "phone": "999 111 222",
+        "website": "https://panaderiasanjose.pe",
+        "image": "panaderia.jpg",
+        "membership": 3
+    },
+    {
+        "name": "Panadería San José",
+        "address": "Av. Primavera 210",
+        "phone": "999 111 222",
+        "website": "https://panaderiasanjose.pe",
+        "image": "panaderia.jpg",
+        "membership": 3
+    },
+    {
+        "name": "Ferretería El Tornillo",
+        "address": "Calle Industrial 100",
+        "phone": "988 555 777",
+        "website": "https://eltornillo.pe",
+        "image": "ferreteria.jpg",
+        "membership": 1
+    }
+]
