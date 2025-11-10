@@ -3,7 +3,7 @@
         "name": "Ferretería San José",
         "address": "Av. La Paz 543",
         "phone": "+ 51 987 654 321",
-        "website": "javascript:void(0)",
+        "website": "#",
         "membership": 1,
         "image": "images/ferreteria.jpeg"
     },
@@ -11,7 +11,7 @@
         "name": "Panadería Añañau",
         "address": "Jr. Los Rosales 210",
         "phone": "+ 51 999 111 222",
-        "website": "javascript:void(0)",
+        "website": "#",
         "image": "images/añañau.jpg",
         "membership": 3
     },
@@ -19,7 +19,7 @@
         "name": "Andean Consultores",
         "address": "Mariscal Cáceres 580",
         "phone": "+51 987 654 321",
-        "website": "javascript:void(0)",
+        "website": "#",
         "image": "images/andean.webp",
         "membership": 3
     },
@@ -27,7 +27,7 @@
         "name": "Cevichería 'El Huarique'",
         "address": "Jr. 5 Esquinas 202",
         "phone": "+51 948 200 100",
-        "website": "javascript:void(0)",
+        "website": "#",
         "image": "images/cevicheria.webp",
         "membership": 2
     },
@@ -35,7 +35,7 @@
         "name": "Imperio Gym",
         "address": "Av. Los Campostes 100",
         "phone": "+ 51 978 465 213",
-        "website": "javascript:void(0)",
+        "website": "#",
         "image": "images/gym.png",
         "membership": 2
     },
@@ -43,8 +43,16 @@
         "name": "El Puquio",
         "address": "Av. Colonial, Jesus",
         "phone": "+51 977 235 687",
-        "website": "javascript:void(0)",
+        "website": "#",
         "image": "images/puqio.jpg",
+        "membership": 1
+    },
+    {
+        "name": "Restaurante 'El Mirador'",
+        "address": "Jr. Ayacucho 300",
+        "phone": "+ 51 912 345 678",
+        "website": "#",
+        "image": "images/placeholder.png",
         "membership": 1
     }
 ]
