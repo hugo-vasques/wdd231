@@ -334,3 +334,11 @@ footer {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
+.menu button:focus-visible,
+#gridBtn:focus-visible,
+#listBtn:focus-visible,
+a:focus-visible {
+    outline: 3px solid #8B0000;
+    outline-offset: 3px;
+}

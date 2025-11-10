@@ -36,7 +36,7 @@ function displayGrid() {
         <div class="img-box">
             <img src="${imageSrc}" alt="${biz.name}">
         </div>
-      <h3>${biz.name}</h3>
+      <h2>${biz.name}</h2>
       <p>${biz.address}</p>
       <p>${biz.phone}</p>
       <p class="membership-tag">Membership: ${membershipText}</p>
@@ -62,7 +62,7 @@ function displayList() {
         row.classList.add('list-item');
 
         row.innerHTML = `
-      <h3>${biz.name}</h3>
+      <h2>${biz.name}</h2>
       <p>${biz.phone}</p>
       <a href="${biz.website}" target="_blank">Visit Website</a>
     `;
