@@ -12,7 +12,7 @@
         "address": "Jr. Los Rosales 210",
         "phone": "+ 51 999 111 222",
         "website": "#",
-        "image": "images/añañau.jpg",
+        "image": "images/añañau.webp",
         "membership": 3
     },
     {
@@ -44,7 +44,7 @@
         "address": "Av. Colonial, Jesus",
         "phone": "+51 977 235 687",
         "website": "#",
-        "image": "images/puqio.jpg",
+        "image": "images/puqio.webp",
         "membership": 1
     },
     {
@@ -52,7 +52,7 @@
         "address": "Jr. Ayacucho 300",
         "phone": "+ 51 912 345 678",
         "website": "#",
-        "image": "images/placeholder.png",
+        "image": "images/mirador.webp",
         "membership": 1
     }
 ]
