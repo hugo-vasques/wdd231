@@ -4,12 +4,14 @@ const listBtn = document.querySelector('#listBtn');
 
 let businesses = [];
 
-fetch('./data/members.json')
-    .then(response => response.json())
-    .then(data => {
-        businesses = data;
-        displayGrid();
-    });
+async function getBusinesses() {
+    const response = await fetch('./data/members.json');
+    const data = await response.json();
+    businesses = data;
+    displayGrid();
+}
+
+getBusinesses();
 
 function displayGrid() {
     directoryContainer.innerHTML = '';
