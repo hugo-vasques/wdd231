@@ -34,9 +34,9 @@ function displayGrid() {
 
         card.innerHTML = `
         <div class="img-box">
-            <img src="${imageSrc}" alt="${biz.name}">
+            <img src="${imageSrc}" alt="${biz.name}" width="300" height="200" loading="lazy">
         </div>
-      <h2>${biz.name}</h2>
+        <h2>${biz.name}</h2>
       <p>${biz.address}</p>
       <p>${biz.phone}</p>
       <p class="membership-tag">Membership: ${membershipText}</p>
