@@ -83,22 +83,21 @@ fetchWeather();
 
 /* ------------------ SPOTLIGHTS ------------------ */
 
-const membersURL = "data/home-members.json"; 
-const spotlightsContainerEl = document.querySelector("#spotlights");
-const numSpotlights = 3; 
+const membersURL = "data/home-members.json";
+const spotlightsContainerEl = document.querySelector(".home-grid");
+const numSpotlights = 3;
 
 async function getSpotlights() {
     try {
         const response = await fetch(membersURL);
         if (response.ok) {
             const data = await response.json();
-            displaySpotlights(data.members); 
+            displaySpotlights(data.members);
         } else {
             throw Error('Error al cargar el archivo JSON de miembros');
         }
     } catch (error) {
         console.error("Error en getSpotlights:", error);
-        spotlightsContainerEl.innerHTML = "<p>No se pudieron cargar los miembros.</p>";
     }
 }
 
@@ -107,22 +106,22 @@ function displaySpotlights(members) {
     const qualifiedMembers = members.filter(member =>
         member.membershipLevel === "Gold" || member.membershipLevel === "Silver"
     );
-    const shuffled = qualifiedMembers.sort(() => 0.5 - Math.random());
 
+    const shuffled = qualifiedMembers.sort(() => 0.5 - Math.random());
     const selection = shuffled.slice(0, numSpotlights);
 
     selection.forEach(member => {
-        let card = document.createElement("article");
-        card.className = "spotlight-card"; 
+        let card = document.createElement("section");
+        card.className = "spotlight-card";
 
         let logoSrc = `images/members/${member.image}`;
 
         card.innerHTML = `
+            <h3>${member.name}</h3> 
             <img src="${logoSrc}" alt="Logo de ${member.name}" width="100" height="100">
-            <h4>${member.name}</h4>
             <p>${member.phone}</p>
             <p>${member.address}</p>
-            <a href="${member.website}" target="_blank">Visitar Sitio</a>
+            <a href="${member.website}" target="_blank">Visit Website</a>
             <hr>
             <p><strong>${member.membershipLevel} Member</strong></p>
         `;
@@ -131,4 +130,4 @@ function displaySpotlights(members) {
     });
 }
 
-getSpotlights(); 
+getSpotlights();

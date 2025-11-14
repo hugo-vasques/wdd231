@@ -9,6 +9,8 @@
     display: block;
     border-radius: 8px;
     object-fit: cover;
+    aspect-ratio: 16 / 9;
+    background: #eee;
 }
 
 .hero-msg {
@@ -23,15 +25,6 @@
     width: 90%;
     max-width: 500px;
     text-align: center;
-}
-
-.hero-msg h2 {
-    margin: 0 0 0.5rem 0;
-    color: var(--accent);
-}
-
-.hero-msg p {
-    margin: 0 0 1rem 0;
 }
 
 .cta-button {
@@ -60,7 +53,8 @@
 
 .events-card,
 .weather-card,
-.spotlights-card {
+.forecast-card,
+.spotlight-card {
     background: #fff;
     border-radius: 14px;
     padding: 1.2rem;
@@ -70,11 +64,13 @@
 
 .events-card h3,
 .weather-card h3,
-.spotlights-card h3 {
+.forecast-card h3,
+.spotlight-card h3 {
     margin-top: 0;
     border-bottom: 2px solid #eee;
     padding-bottom: 0.75rem;
     color: var(--accent);
+    text-align: center;
 }
 
 .weather-info {
@@ -129,35 +125,35 @@
     height: 40px;
 }
 
-.spotlights-container {
-    display: grid;
-    gap: 1.5rem;
-}
-
-.spotlight-card {
-    border: 2px solid #eee;
-    padding: 1rem;
-    border-radius: 8px;
-    text-align: center;
-}
-
 .spotlight-card img {
     width: 100px;
     height: 100px;
     object-fit: contain;
     margin-bottom: 0.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .spotlight-card p {
     margin: 0.25rem 0;
+    text-align: center;
 }
 
 .spotlight-card a {
     color: var(--accent);
+    display: block;
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.spotlight-card hr {
+    margin: 0.75rem 0;
+    border: 0;
+    border-top: 1px solid #eee;
 }
 
 @media (min-width: 769px) {
-
     .home-grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
