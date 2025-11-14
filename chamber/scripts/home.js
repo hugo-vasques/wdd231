@@ -94,10 +94,10 @@ async function getSpotlights() {
             const data = await response.json();
             displaySpotlights(data.members);
         } else {
-            throw Error('Error al cargar el archivo JSON de miembros');
+            throw Error('Error while loading the JSON of the members');
         }
     } catch (error) {
-        console.error("Error en getSpotlights:", error);
+        console.error("Error in getSpotlights:", error);
     }
 }
 
@@ -114,11 +114,11 @@ function displaySpotlights(members) {
         let card = document.createElement("section");
         card.className = "spotlight-card";
 
-        let logoSrc = `images/members/${member.image}`;
+        let logoSrc = `images/${member.image}`;
 
         card.innerHTML = `
             <h3>${member.name}</h3> 
-            <img src="${logoSrc}" alt="Logo de ${member.name}" width="100" height="100">
+            <img src="${logoSrc}" alt="Logo of '${member.name}'" width="250" height="100">
             <p>${member.phone}</p>
             <p>${member.address}</p>
             <a href="${member.website}" target="_blank">Visit Website</a>

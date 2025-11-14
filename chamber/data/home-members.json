@@ -1,43 +1,43 @@
 {
     "members": [
         {
-            "name": "Constructora El Cóndor",
-            "address": "Av. Los Héroes 123, Cajamarca",
-            "phone": "987-654-321",
-            "website": "https://www.constructora-condor.pe",
-            "image": "condor-logo.webp",
+            "name": "Andean Consultores",
+            "address": "Mariscal Cáceres 580",
+            "phone": "+51 987 654 321",
+            "website": "#",
+            "image": "andean.webp",
             "membershipLevel": "Gold"
         },
         {
-            "name": "Café Montaña Azul",
-            "address": "Jr. Del Comercio 456, Cajamarca",
-            "phone": "912-345-678",
-            "website": "https://www.cafemontana.pe",
-            "image": "montana-logo.webp",
+            "name": "Imperio Gym",
+            "address": "Av. Los Campostes 100",
+            "phone": "+ 51 978 465 213",
+            "website": "#",
+            "image": "gym.png",
             "membershipLevel": "Silver"
         },
         {
-            "name": "Transportes Rápidos del Norte",
-            "address": "Av. Evitamiento 789, Cajamarca",
-            "phone": "999-888-777",
-            "website": "https://www.transportesrapidos.pe",
-            "image": "rapidos-logo.webp",
-            "membershipLevel": "Gold"
-        },
-        {
-            "name": "Quesos La Pradera",
-            "address": "Baños del Inca 101, Cajamarca",
-            "phone": "955-555-444",
-            "website": "https://www.quesospradera.pe",
-            "image": "pradera-logo.webp",
+            "name": "Cevichería 'El Huarique'",
+            "address": "Jr. 5 Esquinas 202",
+            "phone": "+51 948 200 100",
+            "website": "#",
+            "image": "cevicheria.webp",
             "membershipLevel": "Silver"
         },
         {
-            "name": "Hotel Plaza",
-            "address": "Plaza de Armas 100, Cajamarca",
-            "phone": "944-333-222",
-            "website": "https://www.hotelplaza.pe",
-            "image": "plaza-logo.webp",
+            "name": "El Puquio",
+            "address": "Av. Colonial, Jesus",
+            "phone": "+51 977 235 687",
+            "website": "#",
+            "image": "puqio.webp",
+            "membershipLevel": "Bronze"
+        },
+        {
+            "name": "Restaurante 'El Mirador'",
+            "address": "Jr. Ayacucho 300",
+            "phone": "+ 51 912 345 678",
+            "website": "#",
+            "image": "mirador.webp",
             "membershipLevel": "Bronze"
         }
     ]
