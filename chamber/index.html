@@ -5,89 +5,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Welcome to my WDD231 site — a place to explore my web projects, creativity, and progress as a developer.">
+        content="Home page of the Timbuktu Chamber of Commerce. Weather, events, and business spotlights.">
     <meta name="author" content="Hugo Vasquez">
-    <title>WDD231 - Home</title>
+    <title>Hugo's Chamber | Home</title>
 
-    <meta property="og:title" content="Course Home Page">
-    <meta property="og:description"
-        content="Course homepage with resources, activities and links to support learning week by week.">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1513258496099-48168024aec0">
-    <meta property="og:url" content="https://hugo-vasques.github.io/wdd231/">
+    <meta property="og:title" content="Chamber of Commerce Home">
+    <meta property="og:description" content="Welcome to the Chamber of Commerce. Discover local businesses and events.">
+    <meta property="og:image" content="https://hugo-vasques.github.io/wdd231/chamber/images/og.avif">
+    <meta property="og:url" content="https://hugo-vasques.github.io/wdd231/chamber/index.html">
 
-    <link rel="stylesheet" href="styles/small.css">
-    <link rel="stylesheet" href="styles/large.css" media="(min-width: 769px)">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/directory-small.css">
+    <link rel="stylesheet" href="styles/directory-large.css" media="(min-width: 769px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Nunito:wght@400;500&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Nunito:wght@400;500&display=swap"
+        media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Nunito:wght@400;500&display=swap">
+    </noscript>
     <link rel="icon" href="favicon.ico">
 
     <script defer src="scripts/date.js"></script>
-    <script defer src="scripts/course.js"></script>
+    <script defer src="scripts/home.js"></script>
 </head>
 
 <body>
     <header>
         <img src="images/home.svg" alt="site logo" width="512" height="512">
-        <span>Hugo's Site</span>
-        <button id="ham-btn" class="hamburguer"></button>
+        <span>Hugo's Chamber | Home</span>
+        <button id="ham-btn" class="hamburguer" aria-label="Toggle navigation menu"></button>
     </header>
     <nav id="nav-bar" class="navigation">
         <ul>
             <li class="current"><a href="index.html">Home</a></li>
             <li><a href="directory.html">Directory</a></li>
-            <li><a href="#">Discover</a></li>
-            <li><a href="#">Join</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
 
-    <main class="container">
-        <h1>Home</h1>
-
-
-        <section id="about">
-            <div class="about-container">
-                <div class="info-box">
-                    <h2>About Me</h2>
-                    <p>
-                        Hey there! I'm Hugo, from Cajamarca, Peru. I'm a web development student who enjoys creating
-                        clean, responsive, and functional
-                        pages. I like learning
-                        new technologies and finding simple ways to make ideas come to life. Outside of coding, I'm into
-                        strategy games like
-                        Clash Royale — helps me think ahead and stay sharp in every challenge.
-                    </p>
-                </div>
-
-                <div class="info-box">
-                    <h3>My Photo :D</h3>
-                    <div class="photo-container">
-                        <img src="images/pfp.jpg" alt="Profile photo" />
-                    </div>
-                </div>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-desktop.webp" media="(max-width: 500px)">
+                <img src="images/hero-desktop.webp" alt="Chamber of commerce hero image showing local scenery"
+                    width="1000" height="500">
+            </picture>
+            <div class="hero-msg">
+                <h2>Welcome to Cajamarca!</h2>
+                <p>Fostering community and business growth.</p>
+                <a href="join.html" class="cta-button">Join the Chamber!</a>
             </div>
-        </section>
+        </div>
 
-        <section id="courses">
-            <h2>Web Certificate Courses</h2>
+        <div class="home-grid">
 
+            <section class="events-card">
+                <h3>Current Events</h3>
+                <div class="event-details">
+                    <p><strong>Chamber Meeting</strong></p>
+                    <p>Thursday, 8:00 PM</p>
+                    <p>Join us for networking and refreshments.</p>
+                </div>
+            </section>
 
-            <div class="controls">
-                <button data-filter="all">All Courses</button>
-                <button data-filter="WDD">WDD Courses</button>
-                <button data-filter="CSE">CSE Courses</button>
-            </div>
+            <section class="weather-card">
+                <h3>Current Weather</h3>
+                <div class="weather-info">
+                    <img id="weather-icon" src="" alt="" width="50" height="50">
+                    <p><span id="current-temp">--</span>&deg;C</p>
+                    <p id="weather-desc">Loading...</p>
+                </div>
+                <hr>
+                <h4>3-Day Forecast</h4>
+                <div id="forecast" class="forecast-container">
+                </div>
+            </section>
 
-
-            <div id="courses-list" class="cards" aria-live="polite"></div>
-
-
-            <p id="credits-total">Credits shown: <span id="totalCredits">0</span></p>
-        </section>
+            <section class="spotlights-card">
+                <h3>Member Spotlights</h3>
+                <div id="spotlights" class="spotlights-container">
+                </div>
+            </section>
+        </div>
     </main>
-
 
     <footer>
         <div class="social">
