@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Membership application page for Hugo's Chamber of Commerce.">
+    <meta name="author" content="Hugo Vasquez">
+    <title>Hugo's Chamber | Join Us</title>
+
+    <meta property="og:title" content="Join Hugo's Chamber">
+    <meta property="og:description" content="Become a member of our community and grow your business.">
+    <meta property="og:image" content="https://hugo-vasques.github.io/wdd231/chamber/images/og.avif">
+    <meta property="og:url" content="https://hugo-vasques.github.io/wdd231/chamber/join.html">
+
+    <link rel="stylesheet" href="styles/join.css">
+    <link rel="stylesheet" href="styles/directory-small.css">
+    <link rel="stylesheet" href="styles/directory-large.css" media="(min-width: 769px)">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Nunito:wght@400;500&display=swap">
+
+    <link rel="icon" href="favicon.ico">
+
+    <script defer src="scripts/date.js"></script>
+    <script defer src="scripts/navigation.js"></script>
+    <script defer src="scripts/join.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/home.svg" alt="site logo" width="512" height="512">
+        <span>Hugo's Chamber | Join</span>
+        <button id="ham-btn" class="hamburguer" aria-label="Toggle navigation menu"></button>
+    </header>
+
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li class="current"><a href="join.html">Join</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="join-container">
+
+        <section class="form-section">
+            <h1>Membership Application</h1>
+
+            <form method="get" action="thankyou.html">
+
+                <label>
+                    First Name
+                    <input type="text" name="first" autocomplete="given-name" required title="Enter your first name">
+                </label>
+
+                <label>
+                    Last Name
+                    <input type="text" name="last" autocomplete="family-name" required title="Enter your last name">
+                </label>
+
+                <label>
+                    Organizational Title
+                    <input type="text" name="title" autocomplete="organization-title" pattern="[A-Za-z\s-]{7,}"
+                        title="Must be at least 7 characters (letters, spaces, or hyphens only)">
+                </label>
+
+                <label>
+                    Email Address
+                    <input type="email" name="email" autocomplete="email" required placeholder="example@domain.com"
+                        title="Enter a valid email">
+                </label>
+
+                <label>
+                    Mobile Phone
+                    <input type="tel" name="phone" autocomplete="tel" required title="Enter your mobile phone number">
+                </label>
+
+                <label>
+                    Business/Organization Name
+                    <input type="text" name="organization" autocomplete="organization" required
+                        title="Enter your business name">
+                </label>
+
+                <label>
+                    Membership Level
+                    <select name="membership" required title="Select your membership level">
+                        <option value="" disabled selected>Select a Level</option>
+                        <option value="np">NP Membership (Non-Profit) - No Fee</option>
+                        <option value="bronze">Bronze Membership</option>
+                        <option value="silver">Silver Membership</option>
+                        <option value="gold">Gold Membership</option>
+                    </select>
+                </label>
+
+                <label>
+                    Business Description
+                    <textarea name="description" title="Describe your organization"></textarea>
+                </label>
+
+                <input type="hidden" id="timestamp" name="timestamp" value="">
+
+                <input type="submit" value="Join the Chamber" class="submit-btn">
+            </form>
+        </section>
+
+        <section class="membership-cards">
+            <h2>Membership Benefits</h2>
+
+            <div class="card animate-card">
+                <h3>NP Membership</h3>
+                <p>Ideally for non-profit organizations.</p>
+                <button id="np-btn" type="button">View Benefits</button>
+            </div>
+
+            <div class="card animate-card">
+                <h3>Bronze Membership</h3>
+                <p>Basic entry level for startups.</p>
+                <button id="bronze-btn" type="button">View Benefits</button>
+            </div>
+
+            <div class="card animate-card">
+                <h3>Silver Membership</h3>
+                <p>Enhanced visibility for growth.</p>
+                <button id="silver-btn" type="button">View Benefits</button>
+            </div>
+
+            <div class="card animate-card">
+                <h3>Gold Membership</h3>
+                <p>Premium access and exclusive events.</p>
+                <button id="gold-btn" type="button">View Benefits</button>
+            </div>
+        </section>
+
+        <dialog id="np-dialog">
+            <div class="dialog-content">
+                <button class="close-modal" id="close-np">❌</button>
+                <h2>NP Membership Benefits</h2>
+                <p>Free for non-profit organizations. Includes listing in the directory and access to basic training.
+                </p>
+            </div>
+        </dialog>
+
+        <dialog id="bronze-dialog">
+            <div class="dialog-content">
+                <button class="close-modal" id="close-bronze">❌</button>
+                <h2>Bronze Benefits</h2>
+                <p>Includes directory listing, 10% event discount, and basic training sessions.</p>
+            </div>
+        </dialog>
+
+        <dialog id="silver-dialog">
+            <div class="dialog-content">
+                <button class="close-modal" id="close-silver">❌</button>
+                <h2>Silver Benefits</h2>
+                <p>Includes directory listing, 20% event discount, homepage spotlight, and training.</p>
+            </div>
+        </dialog>
+
+        <dialog id="gold-dialog">
+            <div class="dialog-content">
+                <button class="close-modal" id="close-gold">❌</button>
+                <h2>Gold Benefits</h2>
+                <p>All benefits plus VIP dinner access, 50% advertising discount, and premium support.</p>
+            </div>
+        </dialog>
+
+    </main>
+
+    <footer>
+        <div class="social">
+            <a href="https://github.com/hugo-vasques" target="_blank"><img src="images/git.svg"
+                    alt="link for my github repository" width="16" height="16"></a>
+            <a href="https://www.linkedin.com/in/hugo-marcelo-v%C3%A1squez-paredes-01b04933b/" target="_blank"><img
+                    src="images/linkedin.svg" alt="link for my linkedin profile" width="16" height="16"></a>
+            <a href="https://www.facebook.com/marce.vasquez.5095110" target="_blank"><img src="images/facebook.svg"
+                    alt="link for my facebook profile" width="16" height="16"></a>
+            <a href="https://x.com/MarceD00318803" target="_blank"><img src="images/twitter.svg"
+                    alt="link for my twitter profile" width="16" height="16"></a>
+        </div>
+        <div class="copyright">
+            <p id="copyright">&copy; <span id="year"></span> Hugo Vásquez, Perú</p>
+            <p id="lastModified">Last Modification: <span id="lm"></span></p>
+        </div>
+    </footer>
+</body>
+
+</html>
