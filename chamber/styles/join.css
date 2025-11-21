@@ -186,3 +186,43 @@ dialog::backdrop {
         margin-bottom: 0;
     }
 }
+
+.thankyou-box {
+    text-align: center;
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+.results-container {
+    background-color: #f9f9f9;
+    border: 1px dashed var(--primary-color);
+    padding: 2rem;
+    margin: 2rem 0;
+    text-align: left;
+    border-radius: 8px;
+}
+
+.results-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.results-container li {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+    text-transform: capitalize;
+}
+
+.thankyou-container {
+    display: block;
+    max-width: 800px;
+    margin: 4rem auto;
+    padding: 0 1rem;
+}
+
+.results-container {
+    margin: 2rem auto;
+    max-width: 600px;
+}

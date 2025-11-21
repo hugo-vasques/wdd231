@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You | Hugo's Chamber</title>
+    <meta name="description" content="Confirmation page for chamber membership application.">
+    <meta name="author" content="Hugo Vasquez">
+
+    <link rel="stylesheet" href="styles/join.css">
+    <link rel="stylesheet" href="styles/directory-small.css">
+    <link rel="stylesheet" href="styles/directory-large.css" media="(min-width: 769px)">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Nunito:wght@400;500&display=swap">
+    <link rel="icon" href="favicon.ico">
+
+    <script defer src="scripts/navigation.js"></script>
+    <script defer src="scripts/thankyou.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <img src="images/home.svg" alt="site logo" width="512" height="512">
+        <span>Hugo's Chamber | Joined</span>
+        <button id="ham-btn" class="hamburguer" aria-label="Toggle navigation menu"></button>
+    </header>
+
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="thankyou-container">
+        <section class="form-section thankyou-box">
+            <h1>Thank You for Joining!</h1>
+            <p>We have received your application properly.</p>
+
+            <div id="results" class="results-container">
+            </div>
+
+            <a href="index.html" class="submit-btn"
+                style="text-decoration: none; text-align: center; display: inline-block;">Back to Home</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social">
+            <a href="https://github.com/hugo-vasques" target="_blank"><img src="images/git.svg" alt="github" width="16"
+                    height="16"></a>
+        </div>
+        <div class="copyright">
+            <p id="copyright">&copy; <span id="year"></span> Hugo Vásquez, Perú</p>
+            <p id="lastModified">Last Modification: <span id="lm"></span></p>
+        </div>
+    </footer>
+
+    <script defer src="scripts/date.js"></script>
+</body>
+
+</html>
