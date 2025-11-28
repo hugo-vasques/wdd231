@@ -6,7 +6,7 @@ export const places = [
         image: "images/baños.webp"
     },
     {
-        name: "Callacpuma Archaeological Center",
+        name: "Callacpuma Archaeol Center",
         address: "Huayrapongo Sector, Baños del Inca District",
         description: "An ancient archaeological site featuring cave paintings and rock art that date back thousands of years, showcasing the region's early history.",
         image: "images/ca.webp"
