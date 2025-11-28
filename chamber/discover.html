@@ -4,21 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Home page of the Timbuktu Chamber of Commerce. Weather, events, and business spotlights.">
+    <meta name="description" content="Directory of local businesses for the Chamber of Commerce.">
     <meta name="author" content="Hugo Vasquez">
-    <title>Hugo's Chamber | Home</title>
+    <title>Hugo's Chamber | Directory</title>
 
-    <meta property="og:title" content="Chamber of Commerce Home">
-    <meta property="og:description" content="Welcome to the Chamber of Commerce. Discover local businesses and events.">
+    <meta property="og:title" content="Chamber of Commerce Directory">
+    <meta property="og:description" content="Discover local businesses supporting our community.">
     <meta property="og:image" content="https://hugo-vasques.github.io/wdd231/chamber/images/og.avif">
-    <meta property="og:url" content="https://hugo-vasques.github.io/wdd231/chamber/index.html">
+    <meta property="og:url" content="https://hugo-vasques.github.io/wdd231/chamber/directory.html">
 
-    <link rel="stylesheet" href="styles/home.css">
+
     <link rel="stylesheet" href="styles/directory-small.css">
     <link rel="stylesheet" href="styles/directory-large.css" media="(min-width: 769px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Nunito:wght@400;500&display=swap"
         media="print" onload="this.media='all'">
@@ -29,68 +29,33 @@
     <link rel="icon" href="favicon.ico">
 
     <script defer src="scripts/date.js"></script>
-    <script defer src="scripts/home.js"></script>
-    <script defer src="scripts/navigation.js"></script>
+    <script defer src="scripts/directory.js"></script>
 </head>
 
 <body>
     <header>
         <img src="images/home.svg" alt="site logo" width="512" height="512">
-        <span>Hugo's Chamber | Home</span>
+        <span>Hugo's Chamber | Directory</span>
         <button id="ham-btn" class="hamburguer" aria-label="Toggle navigation menu"></button>
     </header>
     <nav id="nav-bar" class="navigation">
         <ul>
-            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="directory.html">Directory</a></li>
-            <li><a href="discover.html">Discover</a></li>
+            <li class="current"><a href="discover.html">Discover</a></li>
             <li><a href="join.html">Join</a></li>
         </ul>
     </nav>
 
     <main>
-        <div class="hero">
-            <picture>
-                <source srcset="images/hero-desktop.webp" media="(max-width: 500px)">
-                <img src="images/hero-desktop.webp"
-                    alt="Panoramic view of the Cajamarca City from the viewer Santa Apolonia" width="1000" height="500">
-            </picture>
-            <div class="hero-msg">
-                <h1>Welcome to Cajamarca!</h1>
-                <p>Fostering community and business growth.</p>
-                <a href="join.html" class="cta-button">Join the Chamber!</a>
-            </div>
+        <h1>Business Directory</h1>
+        <div class="menu">
+            <button id="gridBtn" class="active">Grid</button>
+            <button id="listBtn">List</button>
         </div>
 
-        <div class="home-grid">
+        <div id="directoryContainer" class="grid"></div>
 
-            <section class="events-card">
-                <h3>Current Events</h3>
-                <div class="event-details">
-                    <p><strong>Chamber Meeting</strong></p>
-                    <p>Wednesday, 7:00 PM</p>
-                    <p>Join us for networking and refreshments.</p>
-                </div>
-            </section>
-
-            <section class="weather-card">
-                <h3>Current Weather</h3>
-                <div class="weather-info">
-                    <img id="weather-icon"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                        alt="Current weather icon" width="50" height="50">
-                    <p><span id="current-temp">--</span>&deg;C</p>
-                    <p id="weather-desc">Loading...</p>
-                </div>
-            </section>
-
-            <section class="forecast-card">
-                <h3>3-Day Forecast</h3>
-                <div id="forecast" class="forecast-container">
-                </div>
-            </section>
-
-        </div>
     </main>
 
     <footer>
@@ -109,6 +74,7 @@
             <p id="lastModified">Last Modification: <span id="lm"></span></p>
         </div>
     </footer>
+    <script defer src="scripts/navigation.js"></script>
 </body>
 
 </html>
