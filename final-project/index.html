@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="GameVault is your ultimate library to discover iconic video games, from retro classics to modern masterpieces.">
+    <meta name="description" content="GameVault is your ultimate library to discover iconic video games.">
     <meta name="author" content="Hugo Vásquez">
 
     <title>GameVault - Discover Your Favorite Games</title>
@@ -18,21 +17,17 @@
 
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/large.css">
-
     <link rel="icon" href="images/favicon.ico">
 
     <script src="scripts/main.js" type="module" defer></script>
 </head>
 
 <body>
-
     <header>
         <div class="logo-container">
             <span class="logo-text">GameVault</span>
         </div>
-
         <a id="menu" href="#" aria-label="Open Menu">🍔</a>
-
         <nav>
             <ul class="navigation">
                 <li><a href="#" class="active">Home</a></li>
@@ -45,7 +40,7 @@
     <main>
         <section id="hero">
             <div class="hero-content">
-                <h1>Your ultimate gameing library</h1>
+                <h1>Your ultimate gaming library</h1>
                 <p>Discover your favorite games!</p>
             </div>
         </section>
@@ -63,6 +58,16 @@
         <p><a href="https://github.com/tu-usuario/wdd231" target="_blank">GitHub Project</a></p>
     </footer>
 
+    <dialog id="game-modal">
+        <div class="modal-content">
+            <button id="close-modal">❌</button>
+            <h2 id="modal-title">Game Title</h2>
+            <img id="modal-img" src="" alt="Game Image">
+            <p id="modal-desc">Description...</p>
+            <p id="modal-info"><strong>Genre:</strong> <span id="modal-genre">Action</span></p>
+            <p id="modal-platform"><strong>Platform:</strong> <span id="modal-platform-text">PC</span></p>
+        </div>
+    </dialog>
 </body>
 
 </html>
