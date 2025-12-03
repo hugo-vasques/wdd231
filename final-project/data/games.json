@@ -15,18 +15,18 @@
         "releaseYear": 2018,
         "genre": "MOBA / Battle Royale",
         "platform": "Mobile (iOS/Android)",
-        "description": "Frenetic multiplayer battles. Unlock brawlers, rank up, and earn blings to unlock epic skins!",
+        "description": "Frenetic multiplayer battles. Unlock brawlers, rank up, and remember to always blame your randoms!",
         "imageUrl": "images/brawl-stars.webp",
         "rating": 4.7
     },
     {
         "id": 3,
-        "name": "The Legend of Zelda: Ocarina of Time",
-        "releaseYear": 1998,
-        "genre": "Action-Adventure",
-        "platform": "Nintendo 64",
-        "description": "The classic journey of the Hero of Time through Hyrule to stop Ganondorf.",
-        "imageUrl": "images/zelda-oot.webp",
+        "name": "Undertale",
+        "releaseYear": 2015,
+        "genre": "Rol",
+        "platform": "Multiplatform",
+        "description": "Undertale is an indie video game created by Toby Fox where you control a boy named Frisk who falls into the Underground, a world inhabited by monsters. Fight or Spare, but remembre, your choices affect the story, the characters, and even the ending of the game.",
+        "imageUrl": "images/undertale.webp",
         "rating": 5.0
     },
     {
@@ -61,13 +61,13 @@
     },
     {
         "id": 7,
-        "name": "Fortnite",
-        "releaseYear": 2017,
-        "genre": "Battle Royale",
+        "name": "Deltarune",
+        "releaseYear": 2018,
+        "genre": "Rol",
         "platform": "Multiplatform",
-        "description": "Last one standing wins. The most popular battle royale where you have to build, shoot, and survive.",
-        "imageUrl": "images/fortnite.webp",
-        "rating": 4.5
+        "description": "The direct sequel of Undertale. Play as Kris in a brand new adventure, where you and Susie fall into a dark world and must complete a mission to restore balance. It features turn-based team combat, familiar characters with new roles, and a larger, more mysterious story told in chapters.",
+        "imageUrl": "images/deltarune.webp",
+        "rating": 5.0
     },
     {
         "id": 8,
@@ -87,7 +87,7 @@
         "platform": "PC",
         "description": "Step 1: Fell a tree, Step 2: Kill a Nameless Deity, in this extension of the original game where your only goal is defeat the ancient deities that ruled the world and save Terraria. ",
         "imageUrl": "images/terraria-cm.webp",
-        "rating": 5
+        "rating": 4.7
     },
     {
         "id": 10,
@@ -106,7 +106,7 @@
         "genre": "Action-Adventure",
         "platform": "PlayStation / PC",
         "description": "Kratos y su hijo Atreus viajan por los reinos de la mitología nórdica.",
-        "imageUrl": "images/godofwar.webp",
+        "imageUrl": "images/gow.webp",
         "rating": 4.9
     },
     {
@@ -126,7 +126,7 @@
         "genre": "Metroidvania",
         "platform": "Multiplatform",
         "description": "Forge your own path in Hallownest, a ruined kingdom of insects and heroes. Beautiful art and brutal difficulty.",
-        "imageUrl": "images/hollowknight.webp",
+        "imageUrl": "images/hk.webp",
         "rating": 5.0
     },
     {
@@ -146,7 +146,7 @@
         "genre": "Platformer",
         "platform": "Wii / Switch",
         "description": "Play as Mario in a brand new intergalactic adventure, to not only save the Princess Peach form the claws of Bowser, but also the universe!",
-        "imageUrl": "images/mariogalaxy.webp",
-        "rating": 5
+        "imageUrl": "images/smg1.webp",
+        "rating": 5.0
     }
 ]
