@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "name": "Tower Defense Simulator",
+        "releaseYear": 2019,
+        "genre": "Strategy / Tower Defense",
+        "platform": "Roblox (PC/Mobile)",
+        "description": "A strategy game where you team up with friends to defend against endless waves of zombies and menacing bosses.",
+        "imageUrl": "images/tds-cover.webp",
+        "rating": 4.8
+    },
+    {
+        "id": 2,
+        "name": "Brawl Stars",
+        "releaseYear": 2018,
+        "genre": "MOBA / Battle Royale",
+        "platform": "Mobile (iOS/Android)",
+        "description": "Frenetic multiplayer battles. Unlock brawlers, rank up, and earn blings to unlock epic skins!",
+        "imageUrl": "images/brawl-stars.webp",
+        "rating": 4.7
+    },
+    {
+        "id": 3,
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "releaseYear": 1998,
+        "genre": "Action-Adventure",
+        "platform": "Nintendo 64",
+        "description": "The classic journey of the Hero of Time through Hyrule to stop Ganondorf.",
+        "imageUrl": "images/zelda-oot.webp",
+        "rating": 5.0
+    },
+    {
+        "id": 4,
+        "name": "Minecraft",
+        "releaseYear": 2011,
+        "genre": "Sandbox / Survival",
+        "platform": "Multiplatform",
+        "description": "Explore, mine and craft! In this amazing journey where the only limit is your imagination.",
+        "imageUrl": "images/minecraft.webp",
+        "rating": 4.9
+    },
+    {
+        "id": 5,
+        "name": "Grand Theft Auto V",
+        "releaseYear": 2013,
+        "genre": "Action-Adventure",
+        "platform": "Multiplatform",
+        "description": "The story of three criminals that risk everything in a series of robberies in Los Santos City.",
+        "imageUrl": "images/gta5.webp",
+        "rating": 4.8
+    },
+    {
+        "id": 6,
+        "name": "Super Mario 64",
+        "releaseYear": 1996,
+        "genre": "Platformer",
+        "platform": "Nintendo 64",
+        "description": "The game that defined the 3D platforming genre.",
+        "imageUrl": "images/mario64.webp",
+        "rating": 4.9
+    },
+    {
+        "id": 7,
+        "name": "Fortnite",
+        "releaseYear": 2017,
+        "genre": "Battle Royale",
+        "platform": "Multiplatform",
+        "description": "Last one standing wins. The most popular battle royale where you have to build, shoot, and survive.",
+        "imageUrl": "images/fortnite.webp",
+        "rating": 4.5
+    },
+    {
+        "id": 8,
+        "name": "Enter the Gungeon",
+        "releaseYear": 2016,
+        "genre": "Rogue Like",
+        "platform": "Multiplatform",
+        "description": "Step inside the gungeon to unleash it's secrets, and get the Bullet That Can Kill the Past and save your time-line.",
+        "imageUrl": "images/etg.webp",
+        "rating": 5.0
+    },
+    {
+        "id": 9,
+        "name": "Terraria: Calamity ",
+        "releaseYear": 2011,
+        "genre": "Sandbox / Adventure",
+        "platform": "PC",
+        "description": "Step 1: Fell a tree, Step 2: Kill a Nameless Deity, in this extension of the original game where your only goal is defeat the ancient deities that ruled the world and save Terraria. ",
+        "imageUrl": "images/terraria-cm.webp",
+        "rating": 5
+    },
+    {
+        "id": 10,
+        "name": "Cuphead",
+        "releaseYear": 2017,
+        "genre": "Run and Gun",
+        "platform": "Multiplatform",
+        "description": "A challenging action game with art inspired by 1930s cartoons. Don't deal with the Devil!",
+        "imageUrl": "images/cuphead.webp",
+        "rating": 4.8
+    },
+    {
+        "id": 11,
+        "name": "God of War: Ragnraok",
+        "releaseYear": 2018,
+        "genre": "Action-Adventure",
+        "platform": "PlayStation / PC",
+        "description": "Kratos y su hijo Atreus viajan por los reinos de la mitología nórdica.",
+        "imageUrl": "images/godofwar.webp",
+        "rating": 4.9
+    },
+    {
+        "id": 12,
+        "name": "Plants vs. Zombies",
+        "releaseYear": 2009,
+        "genre": "Tower Defense",
+        "platform": "PC / Mobile",
+        "description": "Defend your lawn from a zombie invasion using an arsenal of mutant plants. Addictive strategy with endless fun.",
+        "imageUrl": "images/pvz.webp",
+        "rating": 4.9
+    },
+    {
+        "id": 13,
+        "name": "Hollow Knight",
+        "releaseYear": 2017,
+        "genre": "Metroidvania",
+        "platform": "Multiplatform",
+        "description": "Forge your own path in Hallownest, a ruined kingdom of insects and heroes. Beautiful art and brutal difficulty.",
+        "imageUrl": "images/hollowknight.webp",
+        "rating": 5.0
+    },
+    {
+        "id": 14,
+        "name": "Hollow Knight: Silksong",
+        "releaseYear": 2025,
+        "genre": "Metroidvania",
+        "platform": "Multiplatform",
+        "description": "The highly anticipated sequel. Play as Hornet, the protective princess, and ascend through the realm of Pharloom to escape and reveal the sadic thruth of it.",
+        "imageUrl": "images/silksong.webp",
+        "rating": 5.0
+    },
+    {
+        "id": 15,
+        "name": "Super Mario Galaxy",
+        "releaseYear": 2007,
+        "genre": "Platformer",
+        "platform": "Wii / Switch",
+        "description": "Play as Mario in a brand new intergalactic adventure, to not only save the Princess Peach form the claws of Bowser, but also the universe!",
+        "imageUrl": "images/mariogalaxy.webp",
+        "rating": 5
+    }
+]
