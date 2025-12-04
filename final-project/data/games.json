@@ -7,7 +7,7 @@
         "platform": "Roblox (PC/Mobile)",
         "description": "A strategy game where you team up with friends to defend against endless waves of zombies and menacing bosses.",
         "imageUrl": "images/tds-cover.webp",
-        "rating": 4.8
+        "rating": 4.5
     },
     {
         "id": 2,
@@ -17,7 +17,7 @@
         "platform": "Mobile (iOS/Android)",
         "description": "Frenetic multiplayer battles. Unlock brawlers, rank up, and remember to always blame your randoms!",
         "imageUrl": "images/brawl-stars.webp",
-        "rating": 4.7
+        "rating": 4.2
     },
     {
         "id": 3,
@@ -37,7 +37,7 @@
         "platform": "Multiplatform",
         "description": "Explore, mine and craft! In this amazing journey where the only limit is your imagination.",
         "imageUrl": "images/minecraft.webp",
-        "rating": 4.9
+        "rating": 4.7
     },
     {
         "id": 5,
@@ -47,7 +47,7 @@
         "platform": "Multiplatform",
         "description": "The story of three criminals that risk everything in a series of robberies in Los Santos City.",
         "imageUrl": "images/gta5.webp",
-        "rating": 4.8
+        "rating": 4.4
     },
     {
         "id": 6,
@@ -87,7 +87,7 @@
         "platform": "PC",
         "description": "Step 1: Fell a tree, Step 2: Kill a Nameless Deity, in this extension of the original game where your only goal is defeat the ancient deities that ruled the world and save Terraria. ",
         "imageUrl": "images/terraria-cm.webp",
-        "rating": 4.7
+        "rating": 5.0
     },
     {
         "id": 10,
@@ -97,7 +97,7 @@
         "platform": "Multiplatform",
         "description": "A challenging action game with art inspired by 1930s cartoons. Don't deal with the Devil!",
         "imageUrl": "images/cuphead.webp",
-        "rating": 4.8
+        "rating": 5.0
     },
     {
         "id": 11,
@@ -107,7 +107,7 @@
         "platform": "PlayStation / PC",
         "description": "Kratos y su hijo Atreus viajan por los reinos de la mitología nórdica.",
         "imageUrl": "images/gow.webp",
-        "rating": 4.9
+        "rating": 4.5
     },
     {
         "id": 12,
@@ -117,7 +117,7 @@
         "platform": "PC / Mobile",
         "description": "Defend your lawn from a zombie invasion using an arsenal of mutant plants. Addictive strategy with endless fun.",
         "imageUrl": "images/pvz.webp",
-        "rating": 4.9
+        "rating": 5.0
     },
     {
         "id": 13,
@@ -137,7 +137,7 @@
         "platform": "Multiplatform",
         "description": "The highly anticipated sequel. Play as Hornet, the protective princess, and ascend through the realm of Pharloom to escape and reveal the sadic thruth of it.",
         "imageUrl": "images/silksong.webp",
-        "rating": 5.0
+        "rating": 4.5
     },
     {
         "id": 15,

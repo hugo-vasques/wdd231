@@ -4,7 +4,6 @@ const gamesContainer = document.querySelector('#games-container');
 const yearSpan = document.querySelector('#year');
 const searchBar = document.querySelector('#search-bar');
 
-// Referencias del Modal
 const modal = document.querySelector('#game-modal');
 const closeModal = document.querySelector('#close-modal');
 const modalTitle = document.querySelector('#modal-title');
@@ -15,17 +14,14 @@ const modalPlatform = document.querySelector('#modal-platform-text');
 
 let allGames = [];
 
-// Poner año actual
 const today = new Date();
 yearSpan.textContent = today.getFullYear();
 
-// Menú Hamburguesa
 menuButton.addEventListener('click', () => {
     navigation.classList.toggle('open');
     menuButton.textContent = navigation.classList.contains('open') ? '❌' : '🍔';
 });
 
-// Obtener juegos
 async function getGames() {
     try {
         const response = await fetch('data/games.json');
@@ -40,7 +36,6 @@ async function getGames() {
     }
 }
 
-// Mostrar juegos (CORREGIDO AQUI)
 const displayGames = (games) => {
     gamesContainer.innerHTML = "";
 
@@ -53,28 +48,25 @@ const displayGames = (games) => {
         const card = document.createElement('div');
         card.classList.add('card');
 
-        // Creamos el HTML interno
         card.innerHTML = `
             <img src="${game.imageUrl}" alt="${game.name}" loading="lazy" width="300" height="200">
             <h3>${game.name}</h3>
             <p class="genre">${game.genre}</p>
-            <p class="rating">⭐ ${game.rating}</p>
+            <div class="rating-container">
+    ${generateStars(game.rating)}
+</div>
             <button class="details-btn">More Details</button>
         `;
 
-        // --- CORRECCIÓN IMPORTANTE ---
-        // Agregamos el evento click al botón que acabamos de crear
         const button = card.querySelector('.details-btn');
         button.addEventListener('click', () => {
             openModal(game);
         });
-        // -----------------------------
 
         gamesContainer.appendChild(card);
     });
 }
 
-// Búsqueda
 searchBar.addEventListener('input', (e) => {
     const searchTerm = e.target.value.toLowerCase();
     const filteredGames = allGames.filter(game =>
@@ -84,7 +76,6 @@ searchBar.addEventListener('input', (e) => {
     displayGames(filteredGames);
 });
 
-// Función para abrir el modal
 function openModal(game) {
     modalTitle.textContent = game.name;
     modalImg.src = game.imageUrl;
@@ -95,18 +86,25 @@ function openModal(game) {
     modal.showModal();
 }
 
-// Cerrar modal con botón X
 closeModal.addEventListener('click', () => {
     modal.close();
 });
 
-// Cerrar modal clickeando fuera
 modal.addEventListener('click', (event) => {
     if (event.target === modal) {
         modal.close();
     }
 });
 
-// Iniciar
+function generateStars(rating) {
+    const starPercentage = (rating / 5) * 100;
+
+    return `
+        <div class="stars-outer">
+            <div class="stars-inner" style="width: ${starPercentage}%"></div>
+        </div>
+    `;
+}
+
 getGames();
 

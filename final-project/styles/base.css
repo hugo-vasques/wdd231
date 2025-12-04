@@ -164,9 +164,7 @@ nav ul li a:hover {
 
 .card:hover {
     transform: translateY(-10px);
-    /* Sube la tarjeta */
     box-shadow: 0 10px 20px rgba(0, 173, 181, 0.3);
-    /* Sombra brillante color Cian */
     border-color: var(--accent-color);
 }
 
@@ -209,42 +207,163 @@ footer a {
     color: var(--accent-color);
 }
 
+/* --- MODAL RECARGADO (Estilos + Animación) --- */
 dialog {
     margin: auto;
     padding: 0;
     border: 2px solid var(--accent-color);
-    border-radius: 10px;
+    border-radius: 12px;
     background-color: var(--secondary-color);
     color: var(--text-color);
-    max-width: 500px;
+    max-width: 600px;
+    /* Un poco más ancho para leer mejor */
     width: 90%;
+
+    /* Sombra profunda para que destaque */
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.9);
 }
 
+/* Fondo oscuro detrás del modal */
 dialog::backdrop {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(5px);
+    /* Efecto borroso pro */
 }
 
+/* ANIMACIÓN DE ENTRADA */
+dialog[open] {
+    animation: popIn 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+@keyframes popIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.8) translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+/* CONTENIDO INTERNO */
 .modal-content {
     padding: 2rem;
     position: relative;
-    text-align: center;
+    max-height: 80vh;
+    /* Si el texto es muy largo, no se sale de la pantalla */
+    overflow-y: auto;
+    /* Activa scroll si es necesario */
+
+    /* Tipografía y Espaciado */
+    font-family: var(--font-body);
+    /* Roboto */
+    line-height: 1.6;
+    /* Interlineado cómodo */
+    text-align: left;
+    /* Alineado a la izquierda se lee mejor */
 }
 
+/* Título del Modal */
+.modal-content h2 {
+    font-family: var(--font-heading);
+    /* Orbitron */
+    text-align: center;
+    color: var(--accent-color);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+}
+
+/* Imagen del Modal */
 .modal-content img {
     width: 100%;
-    max-height: 250px;
+    height: auto;
+    max-height: 300px;
     object-fit: cover;
-    margin: 1rem 0;
-    border-radius: 5px;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
+/* Textos descriptivos */
+#modal-desc {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    color: #ddd;
+    /* Un blanco un pelín más suave para no cansar la vista */
+}
+
+/* Información extra (Género/Plataforma) */
+#modal-info,
+#modal-platform {
+    font-size: 0.95rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    /* Fondo sutil */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    border-left: 3px solid var(--accent-color);
+    /* Detalle visual */
+}
+
+/* Botón de cerrar */
 #close-modal {
     position: absolute;
-    top: 10px;
-    right: 15px;
+    top: 15px;
+    right: 20px;
     background: none;
     border: none;
-    font-size: 1.5rem;
+    font-size: 2rem;
     cursor: pointer;
     color: var(--text-color);
+    transition: transform 0.2s, color 0.2s;
+    line-height: 1;
+    z-index: 10;
+}
+
+#close-modal:hover {
+    color: #ff4444;
+    /* Se pone rojo al pasar el mouse */
+    transform: scale(1.2) rotate(90deg);
+    /* Gira un poquito */
+}
+
+.rating-container {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
+.rating-container {
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+.stars-outer {
+    display: inline-block;
+    position: relative;
+    font-family: sans-serif;
+    color: #444;
+}
+
+.stars-outer::before {
+    content: "★★★★★";
+}
+
+.stars-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    color: #FFD700;
+}
+
+.stars-inner::before {
+    content: "★★★★★";
+    text-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
 }
