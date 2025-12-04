@@ -44,7 +44,7 @@
         "name": "Grand Theft Auto V",
         "releaseYear": 2013,
         "genre": "Action-Adventure",
-        "platform": "Multiplatform",
+        "platform": "PC / Playstation",
         "description": "A massive open world where you control three protagonists with interconnected stories. It combines driving, shooting, missions, and a host of other activities. Its online mode has been going strong for years. \n\nGTA Online expands on everything: cooperative heists, businesses, modified cars, special weapons, and events. With so much freedom, players can create everything from crazy races to impromptu battles or simple map explorations.",
         "imageUrl": "images/gta5.webp",
         "rating": 4.4
@@ -104,7 +104,7 @@
         "name": "God of War: Ragnraok",
         "releaseYear": 2018,
         "genre": "Action-Adventure",
-        "platform": "PlayStation / PC",
+        "platform": "PlayStation 5 / PC",
         "description": "Kratos and Atreus face the fate of Ragnarok in a story filled with emotion, epic battles, and detailed exploration. \n\nThe game delves deeper into their father-son relationship and expands the Norse realms with more characters, weapons, enemies, and well-crafted side quests. It's both a continuation and a complete expansion of the universe.",
         "imageUrl": "images/gow.webp",
         "rating": 4.5
@@ -114,7 +114,7 @@
         "name": "Plants vs. Zombies",
         "releaseYear": 2009,
         "genre": "Tower Defense",
-        "platform": "PC / Mobile",
+        "platform": "PC / Mobile / Nintendo Switch",
         "description": "'The zombies are coming!' A strategy game where you use plants with different abilities to stop zombies. Simple, fun, and very well designed. \n\nAs you progress, the zombies introduce new tricks that force you to change your strategy. Its progressive pace and lighthearted humor made it one of the most beloved casual games.",
         "imageUrl": "images/pvz.webp",
         "rating": 5.0

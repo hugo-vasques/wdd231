@@ -345,3 +345,24 @@ dialog[open] {
     content: "★★★★★";
     text-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
 }
+
+/* ----- Platform Icons ----- */
+.platform-icons-container {
+    display: inline-flex;
+    gap: 8px;
+    align-items: center;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.platform-icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--accent-color);
+    transition: transform 0.2s;
+}
+
+.platform-icon:hover {
+    transform: scale(1.2);
+    fill: #fff;
+}
