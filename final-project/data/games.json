@@ -5,7 +5,7 @@
         "releaseYear": 2019,
         "genre": "Strategy / Tower Defense",
         "platform": "Roblox (PC/Mobile)",
-        "description": "A strategy game where you team up with friends to defend against endless waves of zombies and menacing bosses.",
+        "description": "A Roblox game where you strategically place towers to stop increasingly powerful waves of enemies. It's all about planning, upgrading units, and coordinating with your team in challenging modes. It features events and bosses that change the experience. \n\nPlayer progression is key: unlocking exclusive towers, mastering combinations, and learning enemy patterns makes each game feel different. The community also contributes guides and strategies that keep the game active.",
         "imageUrl": "images/tds-cover.webp",
         "rating": 4.5
     },
@@ -15,7 +15,7 @@
         "releaseYear": 2018,
         "genre": "MOBA / Battle Royale",
         "platform": "Mobile (iOS/Android)",
-        "description": "Frenetic multiplayer battles. Unlock brawlers, rank up, and remember to always blame your randoms!",
+        "description": "A fast-paced multiplayer game from Supercell featuring 3v3 and survival modes. Each brawler has unique abilities that can completely change the course of a match. The game is frequently updated and operates on a themed season system. \n\nThe key is mastering roles: tanks, assassins, support, control, and sustained damage. Synergies between brawlers, rotating maps, and signature abilities give the game considerable depth despite its simple appearance. And remember to always blame your randoms!",
         "imageUrl": "images/brawl-stars.webp",
         "rating": 4.2
     },
@@ -25,7 +25,7 @@
         "releaseYear": 2015,
         "genre": "Rol",
         "platform": "Multiplatform",
-        "description": "Undertale is an indie video game created by Toby Fox where you control a boy named Frisk who falls into the Underground, a world inhabited by monsters. Fight or Spare, but remembre, your choices affect the story, the characters, and even the ending of the game.",
+        "description": "Undertale is an indie video game created by Toby Fox where you control a boy who falls into the Underground, a world inhabited by monsters. The key to the game is that you're not obligated to fight: you can talk, negotiate, forgive, or avoid violence altogether. Each choice alters the story's development, unlocks different routes (Pacifist, Neutral, or Genocide), and changes how the characters react to you.\n\nThe game blends quirky humor, powerful emotional moments, and a soundtrack recognized as one of the best in the indie genre. It also stands out for breaking the fourth wall and using your decisions very consciously, making the experience feel personal and different for each player.",
         "imageUrl": "images/undertale.webp",
         "rating": 5.0
     },
@@ -35,9 +35,9 @@
         "releaseYear": 2011,
         "genre": "Sandbox / Survival",
         "platform": "Multiplatform",
-        "description": "Explore, mine and craft! In this amazing journey where the only limit is your imagination.",
+        "description": "A sandbox game who has sold over 350 Million copies around the world, where you explore vast worlds, survive, build, and create whatever your imagination allows. It features crafting, combat, biomes, redstone, and hundreds of other possibilities. \n\nOver time, it has become a giant creative platform: mods, servers, minigames, shaders, and datapacks completely transform it. From automated farms to custom adventures, there's always something new to do. \n\nAnd don't forget what do they say: First we mine, then we craft. Let's Minecraft!",
         "imageUrl": "images/minecraft.webp",
-        "rating": 4.7
+        "rating": 4.5
     },
     {
         "id": 5,
@@ -45,7 +45,7 @@
         "releaseYear": 2013,
         "genre": "Action-Adventure",
         "platform": "Multiplatform",
-        "description": "The story of three criminals that risk everything in a series of robberies in Los Santos City.",
+        "description": "A massive open world where you control three protagonists with interconnected stories. It combines driving, shooting, missions, and a host of other activities. Its online mode has been going strong for years. \n\nGTA Online expands on everything: cooperative heists, businesses, modified cars, special weapons, and events. With so much freedom, players can create everything from crazy races to impromptu battles or simple map explorations.",
         "imageUrl": "images/gta5.webp",
         "rating": 4.4
     },
@@ -55,7 +55,7 @@
         "releaseYear": 1996,
         "genre": "Platformer",
         "platform": "Nintendo 64",
-        "description": "The game that defined the 3D platforming genre.",
+        "description": "A classic that marked the beginning of 3D gaming. Explore worlds through squares to earn stars by completing challenges. It stands out for its freedom of movement. \n\nIts level design is so solid that it's still studied today. Each world has alternate paths and advanced tricks that allow for speedruns, impossible jumps, and creative routes to complete the game faster.",
         "imageUrl": "images/mario64.webp",
         "rating": 4.9
     },
@@ -65,7 +65,7 @@
         "releaseYear": 2018,
         "genre": "Rol",
         "platform": "Multiplatform",
-        "description": "The direct sequel of Undertale. Play as Kris in a brand new adventure, where you and Susie fall into a dark world and must complete a mission to restore balance. It features turn-based team combat, familiar characters with new roles, and a larger, more mysterious story told in chapters.",
+        "description": "Also known as Undertale 2, Toby Fox returns with a bigger and more elaborate story. Our protagonists Kris, Susie, and Ralsei must explore the Dark World in missions filled with humor and mystery. \n\nThe turn-based combat is much more in-depth than Undertale's, featuring team management, active defense, and unique abilities for each character. Furthermore, the narrative plays with expectations, leaving you with theories after each chapter.",
         "imageUrl": "images/deltarune.webp",
         "rating": 5.0
     },
@@ -75,7 +75,7 @@
         "releaseYear": 2016,
         "genre": "Rogue Like",
         "platform": "Multiplatform",
-        "description": "Step inside the gungeon to unleash it's secrets, and get the Bullet That Can Kill the Past and save your time-line.",
+        "description": "A frenetic roguelike where everything revolves around bullets, dodging, and absurd weapons. Each playthrough is different thanks to its changing maps, enemies, and loot. \n\nThe difficulty is intense, but learning to read patterns, exploit weapon synergies, and improve your reflexes is part of the charm. It's a game that punishes you severely, but rewards you when you master it.",
         "imageUrl": "images/etg.webp",
         "rating": 5.0
     },
@@ -85,7 +85,7 @@
         "releaseYear": 2011,
         "genre": "Sandbox / Adventure",
         "platform": "PC",
-        "description": "Step 1: Fell a tree, Step 2: Kill a Nameless Deity, in this extension of the original game where your only goal is defeat the ancient deities that ruled the world and save Terraria. ",
+        "description": "Step 1: Fell a tree, Step 2: Kill an Omniscient Deity that controls the Universe. \n\nWhit this massive mod that transforms Terraria into a whole new experience, with new bosses, biomes, weapons, and mechanics. Its difficulty and scale make it a completely new experience. \n\nCalamity adds significantly longer progression: extra modes, advanced stages, original music, and battles that feel like true game finales. For many, it's the 'ultimate Terraria.'",
         "imageUrl": "images/terraria-cm.webp",
         "rating": 5.0
     },
@@ -95,7 +95,7 @@
         "releaseYear": 2017,
         "genre": "Run and Gun",
         "platform": "Multiplatform",
-        "description": "A challenging action game with art inspired by 1930s cartoons. Don't deal with the Devil!",
+        "description": "A boss-focused action game with a 1930s cartoon aesthetic and a high level of difficulty. Combining reflexes, precision, and patience is essential! \n\nEach boss has multiple phases and unpredictable attacks, forcing you to memorize patterns without missing a beat. Its art style and music make it a truly unique game in the world of video games.",
         "imageUrl": "images/cuphead.webp",
         "rating": 5.0
     },
@@ -105,7 +105,7 @@
         "releaseYear": 2018,
         "genre": "Action-Adventure",
         "platform": "PlayStation / PC",
-        "description": "Kratos y su hijo Atreus viajan por los reinos de la mitología nórdica.",
+        "description": "Kratos and Atreus face the fate of Ragnarok in a story filled with emotion, epic battles, and detailed exploration. \n\nThe game delves deeper into their father-son relationship and expands the Norse realms with more characters, weapons, enemies, and well-crafted side quests. It's both a continuation and a complete expansion of the universe.",
         "imageUrl": "images/gow.webp",
         "rating": 4.5
     },
@@ -115,7 +115,7 @@
         "releaseYear": 2009,
         "genre": "Tower Defense",
         "platform": "PC / Mobile",
-        "description": "Defend your lawn from a zombie invasion using an arsenal of mutant plants. Addictive strategy with endless fun.",
+        "description": "'The zombies are coming!' A strategy game where you use plants with different abilities to stop zombies. Simple, fun, and very well designed. \n\nAs you progress, the zombies introduce new tricks that force you to change your strategy. Its progressive pace and lighthearted humor made it one of the most beloved casual games.",
         "imageUrl": "images/pvz.webp",
         "rating": 5.0
     },
@@ -125,7 +125,7 @@
         "releaseYear": 2017,
         "genre": "Metroidvania",
         "platform": "Multiplatform",
-        "description": "Forge your own path in Hallownest, a ruined kingdom of insects and heroes. Beautiful art and brutal difficulty.",
+        "description": "A challenging Metroidvania set in Hallownest, featuring deep exploration, precise combat, and an incredible atmosphere. \n\nIts massive map, hidden secrets, and challenging bosses make every step forward feel like a true achievement. Furthermore, its story unfolds subtly, inviting the player to interpret it.",
         "imageUrl": "images/hk.webp",
         "rating": 5.0
     },
@@ -135,7 +135,7 @@
         "releaseYear": 2025,
         "genre": "Metroidvania",
         "platform": "Multiplatform",
-        "description": "The highly anticipated sequel. Play as Hornet, the protective princess, and ascend through the realm of Pharloom to escape and reveal the sadic thruth of it.",
+        "description": "The highly anticipated sequel. Play as Hornet, the protective princess, and ascend through the realm of Pharloom to escape and reveal the sadic thruth of it. \n\nIt promises greater mission variety, refined systems, and a more dynamic approach to combat. Its community eagerly anticipates it due to its ambition and how it expands the original universe.",
         "imageUrl": "images/silksong.webp",
         "rating": 4.5
     },
@@ -145,7 +145,7 @@
         "releaseYear": 2007,
         "genre": "Platformer",
         "platform": "Wii / Switch",
-        "description": "Play as Mario in a brand new intergalactic adventure, to not only save the Princess Peach form the claws of Bowser, but also the universe!",
+        "description": "Another 3D Mario game set in space with small planets and unique gravity mechanics, where we must face Bowser once again to save not only the princess, but the entire Universe! \nIt combines creative platforming with a gorgeous orchesta. \n\nEach galaxy introduces new ideas: different physics, levels with unexpected twists, and challenges that take advantage of the space environment. It's one of the most innovative and magical Mario games.",
         "imageUrl": "images/smg1.webp",
         "rating": 5.0
     }

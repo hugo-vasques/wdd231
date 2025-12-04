@@ -5,7 +5,7 @@
     --text-color: #EEEEEE;
 
     --font-heading: 'Orbitron', sans-serif;
-    --font-body: 'Roboto', sans-serif;
+    --font-body: 'Pixelify Sans', sans-serif;
 }
 
 * {
@@ -26,6 +26,7 @@ h3 {
     font-family: var(--font-heading);
     color: var(--accent-color);
 }
+
 header {
     background-color: var(--secondary-color);
     padding: 1rem;
@@ -207,7 +208,6 @@ footer a {
     color: var(--accent-color);
 }
 
-/* --- MODAL RECARGADO (Estilos + Animación) --- */
 dialog {
     margin: auto;
     padding: 0;
@@ -216,21 +216,16 @@ dialog {
     background-color: var(--secondary-color);
     color: var(--text-color);
     max-width: 600px;
-    /* Un poco más ancho para leer mejor */
     width: 90%;
 
-    /* Sombra profunda para que destaque */
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.9);
 }
 
-/* Fondo oscuro detrás del modal */
 dialog::backdrop {
     background-color: rgba(0, 0, 0, 0.85);
     backdrop-filter: blur(5px);
-    /* Efecto borroso pro */
 }
 
-/* ANIMACIÓN DE ENTRADA */
 dialog[open] {
     animation: popIn 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
 }
@@ -247,28 +242,18 @@ dialog[open] {
     }
 }
 
-/* CONTENIDO INTERNO */
 .modal-content {
     padding: 2rem;
     position: relative;
     max-height: 80vh;
-    /* Si el texto es muy largo, no se sale de la pantalla */
     overflow-y: auto;
-    /* Activa scroll si es necesario */
-
-    /* Tipografía y Espaciado */
     font-family: var(--font-body);
-    /* Roboto */
     line-height: 1.6;
-    /* Interlineado cómodo */
     text-align: left;
-    /* Alineado a la izquierda se lee mejor */
 }
 
-/* Título del Modal */
 .modal-content h2 {
     font-family: var(--font-heading);
-    /* Orbitron */
     text-align: center;
     color: var(--accent-color);
     font-size: 2rem;
@@ -277,7 +262,6 @@ dialog[open] {
     padding-bottom: 10px;
 }
 
-/* Imagen del Modal */
 .modal-content img {
     width: 100%;
     height: auto;
@@ -288,28 +272,24 @@ dialog[open] {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
-/* Textos descriptivos */
 #modal-desc {
     margin-bottom: 1.5rem;
     font-size: 1.1rem;
     color: #ddd;
-    /* Un blanco un pelín más suave para no cansar la vista */
+    white-space: pre-line;
+    line-height: 2.5rem;
 }
 
-/* Información extra (Género/Plataforma) */
 #modal-info,
 #modal-platform {
     font-size: 0.95rem;
     background-color: rgba(255, 255, 255, 0.05);
-    /* Fondo sutil */
     padding: 10px;
     border-radius: 5px;
     margin-top: 5px;
     border-left: 3px solid var(--accent-color);
-    /* Detalle visual */
 }
 
-/* Botón de cerrar */
 #close-modal {
     position: absolute;
     top: 15px;
@@ -326,9 +306,7 @@ dialog[open] {
 
 #close-modal:hover {
     color: #ff4444;
-    /* Se pone rojo al pasar el mouse */
     transform: scale(1.2) rotate(90deg);
-    /* Gira un poquito */
 }
 
 .rating-container {
