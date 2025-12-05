@@ -19,7 +19,7 @@ yearSpan.textContent = today.getFullYear();
 
 menuButton.addEventListener('click', () => {
     navigation.classList.toggle('open');
-    menuButton.textContent = navigation.classList.contains('open') ? '❌' : '🍔';
+    menuButton.textContent = navigation.classList.contains('open') ? 'X' : '≡';
 });
 
 async function getGames() {
@@ -29,10 +29,10 @@ async function getGames() {
             allGames = await response.json();
             displayGames(allGames);
         } else {
-            console.error("Error al cargar el JSON");
+            console.error("Error while loading the JSON file");
         }
     } catch (error) {
-        console.error("Error de red o sintaxis:", error);
+        console.error("Connection error or sintaxis:", error);
     }
 }
 

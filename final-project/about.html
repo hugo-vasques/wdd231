@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Player Profile: Hugo Vasquez - GameVault Developer.">
+    <meta name="author" content="Hugo Vasquez">
+    <title>GameVault - About Me</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Pixelify+Sans:wght@400..700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="favicon.ico">
+
+    <script src="scripts/main.js" type="module" defer></script>
+    <script src="scripts/course.js" type="module" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <span class="logo-text">GameVault</span>
+        </div>
+        <a id="menu" href="#" aria-label="Open Menu">≡</a>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#" class="active">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="profile-container">
+            <h1>User Profile</h1>
+
+            <div class="profile-card">
+                <div class="photo-wrapper">
+                    <img src="images/pfp.jpg" alt="Hugo Vasquez" class="profile-pic">
+                    <div class="online-status"></div>
+                </div>
+
+                <div class="profile-stats">
+                    <h2>Hugo Vásquez - About Me <span class="level">LVL. 19</span></h2>
+                    <p class="location">Cajamarca, Peru</p>
+
+                    <hr class="divider">
+
+                    <h3>Bio & Other Stuff</h3>
+                    <p class="bio-text">
+                        Hey there! I'm a web development student who enjoys creating clean, responsive, and functional
+                        pages.
+                        I like learning new technologies and finding simple ways to make ideas come to life.
+                    </p>
+                    <p class="bio-text">
+                        Outside of coding, I'm into strategy games like Clash Royale —
+                        it helps me think ahead and stay sharp in every challenge.
+                    </p>
+
+                    <div class="social-links">
+                        <a href="https://github.com/hugo-vasques" target="_blank" class="social-btn">GitHub</a>
+                        <a href="https://www.linkedin.com/in/hugo-marcelo-v%C3%A1squez-paredes-01b04933b/"
+                            target="_blank" class="social-btn">LinkedIn</a>
+                        <a href="https://x.com/MarceD00318803" target="_blank" class="social-btn">Twitter</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="courses-section">
+                <h3>Courses</h3>
+
+                <p class="xp-stat">Total XP Earned: <span id="totalCredits" class="highlight-xp">0</span></p>
+
+                <div class="filter-controls controls">
+                    <button class="filter-btn active" data-filter="all">All Quests</button>
+                    <button class="filter-btn" data-filter="WDD">WDD Dept.</button>
+                    <button class="filter-btn" data-filter="CSE">CSE Dept.</button>
+                </div>
+
+                <div class="skills-grid" id="courses-list"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> GameVault | Hugo Vásquez | Perú</p>
+        <p><a href="https://github.com/hugo-vasques/wdd231" target="_blank">GitHub Project</a></p>
+    </footer>
+</body>
+
+</html>
