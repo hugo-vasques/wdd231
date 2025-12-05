@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact the GameVault team.">
+    <meta name="author" content="Hugo Vásquez">
+    <title>Contact - GameVault</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Pixelify+Sans:wght@400..700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="favicon.ico">
+
+    <script src="scripts/main.js" type="module" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <span class="logo-text">GameVault</span>
+        </div>
+        <a id="menu" href="#" aria-label="Open Menu">≡</a>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="#" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contact-wrapper">
+            <h1>Send a Message</h1>
+            <p class="subtitle">Found a bug? Want to suggest a game? Let us know!</p>
+
+            <div class="form-container">
+                <form action="thanks.html" method="get" class="vault-form">
+
+                    <label for="fname">Username</label>
+                    <input type="text" id="fname" name="fname" required placeholder="Enter your username..."
+                        autocomplete="off">
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="joseluis@example.com">
+
+                    <label for="topic">Topic</label>
+                    <select id="topic" name="topic" required>
+                        <option value="" disabled selected>Select a topic...</option>
+                        <option value="suggestion">Game Suggestion</option>
+                        <option value="bug">Report Bugs</option>
+                        <option value="collab">Collab</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required
+                        placeholder="Type your message here..."></textarea>
+
+                    <input type="submit" value="Send your Request!" class="submit-btn">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> GameVault | Hugo Vásquez | Perú</p>
+        <p><a href="https://github.com/hugo-vasques/wdd231" target="_blank">GitHub Project</a></p>
+    </footer>
+</body>
+
+</html>
