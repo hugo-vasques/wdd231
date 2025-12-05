@@ -76,7 +76,7 @@
         "genre": "Rogue Like",
         "platform": "Multiplatform",
         "description": "A frenetic roguelike where everything revolves around bullets, dodging, and absurd weapons. Each playthrough is different thanks to its changing maps, enemies, and loot. \n\nThe difficulty is intense, but learning to read patterns, exploit weapon synergies, and improve your reflexes is part of the charm. It's a game that punishes you severely, but rewards you when you master it.",
-        "imageUrl": "images/etg.webp",
+        "imageUrl": "images/gungeon.webp",
         "rating": 5.0
     },
     {
@@ -106,7 +106,7 @@
         "genre": "Action-Adventure",
         "platform": "PlayStation 5 / PC",
         "description": "Kratos and Atreus face the fate of Ragnarok in a story filled with emotion, epic battles, and detailed exploration. \n\nThe game delves deeper into their father-son relationship and expands the Norse realms with more characters, weapons, enemies, and well-crafted side quests. It's both a continuation and a complete expansion of the universe.",
-        "imageUrl": "images/gow.webp",
+        "imageUrl": "images/kratos.webp",
         "rating": 4.5
     },
     {
@@ -116,7 +116,7 @@
         "genre": "Tower Defense",
         "platform": "PC / Mobile / Nintendo Switch",
         "description": "'The zombies are coming!' A strategy game where you use plants with different abilities to stop zombies. Simple, fun, and very well designed. \n\nAs you progress, the zombies introduce new tricks that force you to change your strategy. Its progressive pace and lighthearted humor made it one of the most beloved casual games.",
-        "imageUrl": "images/pvz.webp",
+        "imageUrl": "images/plants.webp",
         "rating": 5.0
     },
     {
@@ -126,7 +126,7 @@
         "genre": "Metroidvania",
         "platform": "Multiplatform",
         "description": "A challenging Metroidvania set in Hallownest, featuring deep exploration, precise combat, and an incredible atmosphere. \n\nIts massive map, hidden secrets, and challenging bosses make every step forward feel like a true achievement. Furthermore, its story unfolds subtly, inviting the player to interpret it.",
-        "imageUrl": "images/hk.webp",
+        "imageUrl": "images/hollow-knight.webp",
         "rating": 5.0
     },
     {
@@ -146,7 +146,7 @@
         "genre": "Platformer",
         "platform": "Wii / Switch",
         "description": "Another 3D Mario game set in space with small planets and unique gravity mechanics, where we must face Bowser once again to save not only the princess, but the entire Universe! \nIt combines creative platforming with a gorgeous orchesta. \n\nEach galaxy introduces new ideas: different physics, levels with unexpected twists, and challenges that take advantage of the space environment. It's one of the most innovative and magical Mario games.",
-        "imageUrl": "images/smg1.webp",
+        "imageUrl": "images/mario-galaxy.webp",
         "rating": 5.0
     }
 ]
