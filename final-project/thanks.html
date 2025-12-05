@@ -46,17 +46,34 @@
 
 <body>
     <h1>Succed!</h1>
-    <p>Pal <span id="user-name" style="color: var(--accent-color); font-weight:bold;">Player</span>, your feedback has
-        been succesfully received.</p>
+
+    <p id="confirmation-msg">Your request has been received.</p>
+
+    <div class="countdown">
+        Returning to the home page...
+    </div>
+
+    <br>
+    <a href="index.html" class="submit-btn"
+        style="text-decoration: none; padding: 10px 20px; display: inline-block;">Return Now</a>
 
     <script>
         const currentUrl = window.location.href;
-        const url = new URL(currentUrl);
 
-        const playerName = url.searchParams.get("fname");
+        const url = new URL(currentUrl);
+        const params = url.searchParams;
+
+        const playerName = params.get("fname");
+        const topic = params.get("topic");
 
         if (playerName) {
-            document.getElementById('user-name').textContent = playerName.replace(/\+/g, " ");
+            const msgElement = document.getElementById('confirmation-msg');
+            const cleanName = playerName.replace(/\+/g, " ");
+
+            msgElement.innerHTML = `
+                Pal <strong style="color: var(--accent-color);">${cleanName}</strong>, 
+                your request regarding <em>"${topic}"</em> has been succesfully received.
+            `;
         }
     </script>
 </body>

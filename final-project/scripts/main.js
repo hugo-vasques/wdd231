@@ -20,12 +20,11 @@ if (!visitCount) {
 }
 
 visitCount++;
-
 localStorage.setItem('gameVaultVisits', visitCount);
 
 const visitSpan = document.querySelector('#visit-counter');
 if (visitSpan) {
-    visitSpan.textContent = `Login #${visitCount}`;
+    visitSpan.textContent = visitCount;
 }
 
 /* ----- Home Logic (index.html) ----- */

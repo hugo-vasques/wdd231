@@ -198,16 +198,43 @@ nav ul li a:hover {
     background-color: white;
 }
 
+/* --- FOOTER MEJORADO --- */
 footer {
     background-color: var(--secondary-color);
     text-align: center;
-    padding: 1rem;
-    margin-top: 2rem;
-    font-size: 0.9rem;
+    padding: 2rem 1rem;
+    margin-top: 3rem;
+    border-top: 2px solid #333;
+
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+footer p {
+    margin: 10px 0;
+    color: #aaa;
 }
 
 footer a {
     color: var(--accent-color);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #fff;
+    text-shadow: 0 0 10px var(--accent-color);
+}
+
+#visit-counter {
+    font-family: var(--font-heading);
+    font-size: 1.4rem;
+    color: var(--accent-color);
+    font-weight: bold;
+    background-color: rgba(0, 173, 181, 0.1);
+    padding: 2px 8px;
+    border-radius: 5px;
 }
 
 dialog {
