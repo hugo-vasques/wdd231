@@ -13,6 +13,21 @@ if (menuButton && navigation) {
     });
 }
 
+let visitCount = localStorage.getItem('gameVaultVisits');
+
+if (!visitCount) {
+    visitCount = 0;
+}
+
+visitCount++;
+
+localStorage.setItem('gameVaultVisits', visitCount);
+
+const visitSpan = document.querySelector('#visit-counter');
+if (visitSpan) {
+    visitSpan.textContent = `Login #${visitCount}`;
+}
+
 /* ----- Home Logic (index.html) ----- */
 const searchBar = document.querySelector('#search-bar');
 

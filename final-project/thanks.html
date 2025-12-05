@@ -45,18 +45,20 @@
 </head>
 
 <body>
+    <h1>Succed!</h1>
+    <p>Pal <span id="user-name" style="color: var(--accent-color); font-weight:bold;">Player</span>, your feedback has
+        been succesfully received.</p>
 
-    <h1>Succeded!</h1>
-    <p>Your message has been successfully reciebed to the Vault.</p>
+    <script>
+        const currentUrl = window.location.href;
+        const url = new URL(currentUrl);
 
-    <div class="countdown">
-        Returning to the home page...
-    </div>
+        const playerName = url.searchParams.get("fname");
 
-    <br>
-    <a href="index.html" class="submit-btn"
-        style="text-decoration: none; padding: 10px 20px; display: inline-block;">Return Now</a>
-
+        if (playerName) {
+            document.getElementById('user-name').textContent = playerName.replace(/\+/g, " ");
+        }
+    </script>
 </body>
 
 </html>
